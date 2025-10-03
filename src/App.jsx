@@ -198,7 +198,7 @@ function Footer() {
 
 export default function App() {
    return (
-      <HashRouter basename="/react-router-dom">
+      <Router basename='/react-router-dom'>
          <div className='flex flex-col min-h-screen bg-gray-900 text-white'>
             <nav className='bg-gray-800 p-4 flex flex-wrap justify-center space-x-4 md:space-x-6 shadow-md'>
                <Link
