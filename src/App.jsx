@@ -1,5 +1,5 @@
 // src/App.jsx
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function Home() {
    return (
@@ -18,8 +18,8 @@ function Home() {
                   Getting Started with React Router
                </h2>
                <p className='text-gray-300'>
-                  Learn the basics of React Router v6, including routes, links,
-                  and nested navigation.
+                  pl Learn the basics of React Router v6, including routes,
+                  links, and nested navigation.
                </p>
             </article>
 
